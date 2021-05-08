@@ -1,0 +1,84 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>Information Age</title>
+<script type="text/javascript" src="jquery-1.7.1.min.js"></script> 
+<script type="text/javascript" src="js/jquery.snippet.min.js"></script>    
+<script type="text/javascript" src="js/kickstart.js"></script>
+<link rel="stylesheet" type="text/css" href="css/kickstart.css" media="all" />
+<script type="text/javascript" src="./script/jquery-1.6.4.min.js"></script>
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript">
+<!--//---------------------------------+
+//  Developed by Roshan Bhattarai 
+//  Visit http://roshanbh.com.np for this script and more.
+//  This notice MUST stay intact for legal use
+// --------------------------------->
+$(document).ready(function()
+{
+	//slides the element with class "menu_body" when paragraph with class "menu_head" is clicked 
+	$("#firstpane p.menu_head").click(function()
+    {
+		$(this).css({backgroundImage:"url(down.png)"}).next("div.menu_body").slideToggle(300).siblings("div.menu_body").slideUp("slow");
+       	$(this).siblings().css({backgroundImage:"url(left.png)"});
+	});
+	//slides the element with class "menu_body" when mouse is over the paragraph
+	$("#secondpane p.menu_head").mouseover(function()
+    {
+	     $(this).css({backgroundImage:"url(down.png)"}).next("div.menu_body").slideDown(500).siblings("div.menu_body").slideUp("slow");
+         $(this).siblings().css({backgroundImage:"url(left.png)"});
+	});
+});
+</script>
+</head>
+
+<body style="background-color: #C0C0C0; margin-top: 0; background-image: url('images/bg.jpg');">
+
+<div id="container">
+		<div id="top"></div>
+		<div id="main-wrapper">
+		<div id="aside">
+			<img src="images/logo.png" width="175px" height="113px" />
+			<div class="menu_list" id="firstpane"> <!--Code for menu starts here-->
+			<p class="menu_head"><a href="pages\introduction.html" target="content">Home</a></p>
+			<div class="menu_body">
+			</div>
+			<p class="menu_head">Online Services</p>
+			<div class="menu_body">
+				<a href="./online_services/education.html" target="content">Cloud Based Apps</a>
+         		<a href="./online_services/ecommerce.html" target="content">E-commerce</a>
+         		<a href="./online_services/entertainment.html" target="content">Entertainment</a>
+         		<a href="./online_services/download_services.html" target="content">Download Services</a>
+         		<a href="./online_services/egov.html" target="content">Real Time Information</a>
+				<a href="online_services/conclusion.html" target="content">Conclusion</a>
+				
+			</div>
+			<p class="menu_head">Life in Info Age</p>
+			<div class="menu_body">
+				<a href="./life_info_age/questionnaire.html" target="content">Survey</a>
+				<a href="./life_info_age/communication.html" target="content">Communication</a>
+           		<a href="./life_info_age/banking.html" target="content">Banking and Shopping</a>
+            	<a href="./life_info_age/decision.html" target="content">Decision Making</a>
+            	<a href="./life_info_age/crime.html" target="content">Crime and Crime prevention</a>
+            	<a href="./life_info_age/civil.html" target="content">Civil Rigts</a>
+		    </div>
+			<p class="menu_head" style="border-bottom: 1px solid #ccc">Digital Divide</p>
+			<div class="menu_body">
+          		<a href="./digital_divide/divide.html" target="content">What is Digital Divide?</a>
+         		<a href="./digital_divide/factors.html" target="content">Causes of the Divide</a>
+         		<a href="./digital_divide/impacts.html" target="content">Impacts of the Divide</a>
+         		<a href="./digital_divide/bridging.html" target="content">Bridging the Divide</a>
+         		<a href="./digital_divide/benefits_drawbacks.html" target="content">Benefits and Drawbacks</a>			
+       		</div>
+  			</div>      <!--Code for menu ends here-->
+		</div>
+		<div id="frame">
+		<iframe id="I1" class="auto-style1" name="content" src="pages\introduction.html" width="100%" height="100%" border="0" frameborder="0">Your browser does not support inline frames or is currently configured not to display inline frames.
+		</iframe>
+		</div>
+		</div>
+		
+</div>
+</body>
+</html>

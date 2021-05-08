@@ -1,0 +1,144 @@
+﻿#container {
+	margin: 0 auto;
+	width: 1200px;
+}
+
+#top {
+	background: #333;
+	width: 1200px;
+	height: 5px;
+}
+
+#main-wrapper {
+	border: 1px solid #ccc;
+	border-top: 0;
+	background: #fff;
+}
+
+#aside {
+	display: block;
+	float: left;
+	width: 175px;
+	background: #fff;
+}
+
+.header {
+	font-family: Trebuchet Ms, sans-serif;
+	text-align: left;
+	color: #ff3333;
+	margin-top: 12px;
+	padding-top: 7px;
+	margin-bottom: 5px;
+}
+.service {
+	color: #3399ff;
+}
+
+.life_info_age {
+	font-family: Arial, sans-serif;
+	color: #3399ff;
+	margin-top: 7px;
+	margin-bottom: 5px;
+}
+
+.subheader {
+	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+	text-align: left;
+	color: #666;
+	margin-top: 7px;
+	margin-bottom: 5px;
+
+}
+
+.para {
+	text-align: left;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #666;
+	font-size: 90%;
+	line-height: 150%;
+}
+
+.list li {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 90%;
+	text-align: left;
+	line-height: 150%;
+}
+
+.control {
+	float: right;
+}
+
+.menu_list {	
+	width: 177px;
+	margin-top: -1px;
+	margin-left: -1px;
+}
+
+.menu_head {
+	padding: 5px 10px;
+	cursor: pointer;
+	position: relative;
+	margin:1px;
+    font-weight:bold;
+    color: #ff3333;
+   	font-family: Arial, Helvetica, sans-serif;
+	border-top: 1px solid #ccc;
+}
+
+.menu_head:hover {
+	background: #F5F5F5;
+}
+
+.menu_head a {
+	display: block;
+	text-decoration: none;
+	color: #ff3333;
+    font-weight:bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.menu_body {
+	display:none;
+}
+
+.menu_body a{
+  display:block;
+  color:#3399ff;
+  padding-left:20px;
+  font-weight:bold;
+  text-decoration:none;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.menu_body a:hover{
+   text-decoration:underline;
+ }
+ 
+ #frame {
+	display: block;
+	width: 1022px;
+	height: 595px;
+	background: #fff;
+	border-left: 1px solid #ccc;
+	float: right;
+	margin: 0;
+	padding: 0;
+}
+
+#footer {
+	text-align:center;
+	padding:15px;
+	margin:0;
+	background:#efefef;
+	border-top:1px solid #ccc;
+	color:#999;
+	font-size:0.8em;
+	font-family: sans-serif;
+	clear: both;
+}
+	
